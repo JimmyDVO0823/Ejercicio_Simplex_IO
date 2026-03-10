@@ -480,7 +480,6 @@
     /* Custom sub format */
     .m-var {
       font-family: var(--font-main);
-      font-style: italic;
       font-weight: 500;
       display: inline-block;
     }
@@ -677,11 +676,11 @@
           6(3t) + 3(2t) + 2(5t) = 18t + 6t + 10t = <strong>34t &le; 9 000</strong>
           &nbsp;&rArr;&nbsp; t &le; 264.706...</div>
         <div class="math-line"><span class="eq-label">(6a)</span>
-          3t &ge; 200 &nbsp;&rArr;&nbsp; t &ge; 66.67</div>
+          <span class="m-var">3t</span> &ge; 200 &nbsp;&rArr;&nbsp; t &ge; 66.67</div>
         <div class="math-line"><span class="eq-label">(6b)</span>
-          2t &ge; 200 &nbsp;&rArr;&nbsp; <strong>t &ge; 100</strong> &nbsp;&#8592; restriccion activa</div>
+          <span class="m-var">2t</span> &ge; 200 &nbsp;&rArr;&nbsp; <strong>t &ge; 100</strong> &nbsp;&#8592; restriccion activa</div>
         <div class="math-line"><span class="eq-label">(6c)</span>
-          5t &ge; 150 &nbsp;&rArr;&nbsp; t &ge; 30</div>
+          <span class="m-var">5t</span> &ge; 150 &nbsp;&rArr;&nbsp; t &ge; 30</div>
       </div>
 
       <p>La cota inferior activa es <strong>t &ge; 100</strong>. Para aplicar el Simplex en forma
@@ -693,18 +692,18 @@
 
       <p>Reescribiendo:</p>
       <div class="math-block objective">
-        <div class="math-line">Z = 380(w + 100) = <strong>380w + 38 000</strong></div>
+        <div class="math-line">Z = <span class="m-var">380(w + 100)</span> = <strong><span class="m-var">380w</span> + 38 000</strong></div>
         <div class="math-line" style="font-size:14px; color:#666;">
-          Equivalente a maximizar Z' = 380w (y sumar 38 000 al final)
+          Equivalente a maximizar Z' = <span class="m-var">380w</span> (y sumar 38 000 al final)
         </div>
       </div>
       <div class="math-block constraint">
         <div class="math-line"><span class="eq-label">(1'')</span>
-          37w &le; 4 000 &minus; 37(100) = <strong>300</strong></div>
+          <span class="m-var">37w</span> &le; 4 000 &minus; 37(100) = <strong>300</strong></div>
         <div class="math-line"><span class="eq-label">(2'')</span>
-          51w &le; 6 000 &minus; 51(100) = <strong>900</strong></div>
+          <span class="m-var">51w</span> &le; 6 000 &minus; 51(100) = <strong>900</strong></div>
         <div class="math-line"><span class="eq-label">(3'')</span>
-          34w &le; 9 000 &minus; 34(100) = <strong>5 600</strong></div>
+          <span class="m-var">34w</span> &le; 9 000 &minus; 34(100) = <strong>5 600</strong></div>
         <div class="math-line"><span class="eq-label">(7)</span>
           w &ge; 0</div>
       </div>
@@ -719,7 +718,7 @@
         para convertir las desigualdades en igualdades:</p>
 
       <div class="math-block">
-        <div class="math-line"><strong>Maximizar &nbsp; Z' = 380w</strong></div>
+        <div class="math-line"><strong>Maximizar &nbsp; Z' = <span class="m-var">380w</span></strong></div>
         <br>
         <div class="math-line"><span class="eq-label">(R1)</span>
           <span class="m-var">37w</span> + <span class="m-var">s<sub>1</sub></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
@@ -935,7 +934,7 @@
       <h3>Paso 4: Calcular el valor optimo de Z</h3>
       <div class="math-block objective">
         <div class="math-line">
-          Z = 380t + 0 = 380 &times; (4 000/37) = <strong>1 520 000/37 &asymp; $41 081.08</strong>
+          Z = <span class="m-var">380t</span> + 0 = 380 &times; (4 000/37) = <strong><span class="m-var">1 520 000/37</span> &asymp; $41 081.08</strong>
         </div>
         <br>
         <div class="math-line" style="font-size:15px; color:#444;">
@@ -946,7 +945,7 @@
         </div>
         <div class="math-line">
           &nbsp;&nbsp; = (360 000 + 160 000 + 1 000 000) / 37
-          = <strong>1 520 000 / 37 &asymp; $41 081.08</strong>
+          = <strong><span class="m-var">1 520 000 / 37</span> &asymp; $41 081.08</strong>
         </div>
       </div>
     </div>
